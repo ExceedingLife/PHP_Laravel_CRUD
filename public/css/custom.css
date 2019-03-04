@@ -1,0 +1,70 @@
+/*
+    PHP Laravel CRUD
+    Main StyleSheet
+    BootStrap 4 / HTML5 / CSS3 / JS / PHP / Laravel
+    /xampp/htdocs/Laravel_Projects/Laravel_CRUD/public/css/
+    CSS Custom Stylesheet - Andrew Harkins
+*/
+/*                  ~ Google Font Choices ~                     */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
+/*@import url('https://fonts.googleapis.com/css?family=Lora');*/
+/*@import url('https://fonts.googleapis.com/css?family=Lato');*/
+
+* {
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /*font-family: 'Lora', serif;*/
+    /*font-family: 'Lato', sans-serif;*/
+}
+body {
+    background-color: #464646;
+}
+header {
+    /*margin-top: 2rem;
+    margin-bottom: 2rem;*/
+    background-color: #363636;
+}
+header img {
+    height: 150px;
+    width: auto;
+}
+/* header .header-text {
+    font-size: 2rem;
+} */
+#section-content {
+    background-color: #101010;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+#section-content .contentdiv {
+    background-color: #574949;
+    border: .2rem solid #510f0f;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#section-content .contentdiv .table {
+    background-color: #e4e3d3;
+  }
+#section-content h2 {
+    color: #510f0f;
+}
+
+footer {
+    background-color: #363636;
+}
+footer .foot-menu {
+    font-weight: 800;
+}
+footer .foot-socials {
+    list-style: none;
+}
+footer .foot-socials .soc-item {
+    display: inline;
+    margin: 0 .5rem;
+}
+footer .foot-socials .soc-item img {
+    width: 40px;
+    height: 40px;
+}
+
